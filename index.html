@@ -3,100 +3,48 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Know-Ledge - Apprends. Comprends. Réussis.</title>
+<title>Know-Ledge - Primaire RDC</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Arial,sans-serif;background:#f8f9ff;color:#1a1a2e}
-header{background:#4f46e5;color:white;padding:15px 20px;display:flex;justify-content:space-between;align-items:center}
-header h2{font-size:20px}
-.hero{background:linear-gradient(135deg,#4f46e5,#7c3aed);color:white;padding:60px 20px;text-align:center}
-.hero h1{font-size:32px;margin-bottom:15px}
-.hero p{font-size:18px;opacity:0.9;margin-bottom:25px}
-.btn{background:white;color:#4f46e5;padding:14px 28px;border-radius:30px;text-decoration:none;font-weight:bold;display:inline-block}
-.section{padding:40px 20px;max-width:1000px;margin:0 auto}
-.section h2{text-align:center;margin-bottom:30px;font-size:26px}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
-.card{background:white;padding:25px;border-radius:15px;box-shadow:0 4px 15px rgba(0,0,0,0.1);text-align:center;transition:0.3s}
-.card:hover{transform:translateY(-5px)}
-.card h3{color:#4f46e5;margin-bottom:10px;font-size:22px}
-.card .badge{background:#e0e7ff;color:#4f46e5;padding:5px 12px;border-radius:20px;font-size:12px;font-weight:bold}
-.card p{margin:15px 0;color:#555}
-.card a{background:#4f46e5;color:white;padding:10px 20px;border-radius:20px;text-decoration:none;display:inline-block;margin-top:10px}
-footer{background:#1a1a2e;color:white;text-align:center;padding:20px;margin-top:40px}
+body{font-family:Arial,sans-serif;background:#f8f9ff}
+header{background:#4f46e5;color:white;padding:15px;text-align:center}
+.hero{background:linear-gradient(135deg,#4f46e5,#7c3aed);color:white;padding:40px 20px;text-align:center}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:15px;padding:20px;max-width:800px;margin:auto}
+.card{background:white;padding:20px;border-radius:15px;text-align:center;box-shadow:0 3px 10px rgba(0,0,0,0.1)}
+.card h2{color:#4f46e5;font-size:30px}
+.badge{display:inline-block;padding:5px 12px;border-radius:20px;font-size:11px;font-weight:bold;margin:8px 0}
+.b1{background:#e0e7ff;color:#4f46e5} .b2{background:#d1fae5;color:#065f46}
+.b3{background:#fef3c7;color:#92400e} .b4{background:#ffe4e6;color:#9f1239}
+.btn{background:#4f46e5;color:white;padding:10px 20px;border-radius:20px;text-decoration:none;display:inline-block;margin-top:10px;font-size:14px}
 </style>
 </head>
 <body>
-<header>
-<h2>Know-Ledge</h2>
-<span>🇨🇩 RDC</span>
-</header>
-
+<header><strong>Know-Ledge - Ecole Primaire RDC 🇨🇩</strong></header>
 <div class="hero">
 <h1>Apprends. Comprends. Réussis.</h1>
-<p>Plateforme d'apprentissage pour les élèves des Humanités et Universités</p>
-<a class="btn" href="#classes">Commencer Gratuitement →</a>
+<p>Pour les élèves de 3ème à 6ème Primaire</p>
 </div>
-
-<div class="section" id="classes">
-<h2>Choisis ta Classe</h2>
-<div class="cards">
-
+<div class="grid">
 <div class="card">
-<h3>3ème</h3>
-<span class="badge">Secondaire</span>
-<p>Cours de base, Math, Français, Anglais, Sciences</p>
-<a href="#">Voir les cours</a>
+<h2>3ème</h2><span class="badge b1">ECOLE PRIMAIRE</span>
+<p>Lecture, Calcul, Eveil</p>
+<a class="btn" href="3-primaire.html">Voir les cours</a>
 </div>
-
 <div class="card">
-<h3>4ème</h3>
-<span class="badge">Humanités</span>
-<p>Littéraire, Scientifique, Commerciale, Pédagogie</p>
-<a href="#">Voir les cours</a>
+<h2>4ème</h2><span class="badge b2">ECOLE PRIMAIRE</span>
+<p>Français, Math, Sciences</p>
+<a class="btn" href="4-primaire.html">Voir les cours</a>
 </div>
-
 <div class="card">
-<h3>5ème</h3>
-<span class="badge">Humanités</span>
-<p>Préparation Examen d'Etat, Dissertation, Options</p>
-<a href="#">Voir les cours</a>
+<h2>5ème</h2><span class="badge b3">ECOLE PRIMAIRE</span>
+<p>Conjugaison, Problèmes</p>
+<a class="btn" href="5-primaire.html">Voir les cours</a>
 </div>
-
 <div class="card">
-<h3>6ème</h3>
-<span class="badge">Finaliste</span>
-<p>Exetat 2026, Révisions intensives, Tests</p>
-<a href="#">Voir les cours</a>
-</div>
-
+<h2>6ème</h2><span class="badge b4">PRIMAIRE - TENAFEP</span>
+<p>Révision finale TENAFEP</p>
+<a class="btn" href="6-primaire.html">Voir les cours</a>
 </div>
 </div>
-
-<div class="section" style="background:white;border-radius:20px;margin-top:20px;">
-<h2>Pourquoi Know-Ledge?</h2>
-<div class="cards">
-<div class="card" style="box-shadow:none">
-<h3>📚</h3>
-<h3>Cours complets</h3>
-<p>Toutes les matières des humanités</p>
-</div>
-<div class="card" style="box-shadow:none">
-<h3>🎥</h3>
-<h3>Vidéos claires</h3>
-<p>Explications en lingala, swahili et français</p>
-</div>
-<div class="card" style="box-shadow:none">
-<h3>📝</h3>
-<h3>Exercices</h3>
-<p>Avec corrections pour réussir</p>
-</div>
-</div>
-</div>
-
-<footer>
-<p>© 2026 Know-Ledge - Fait avec ❤️ à Lubumbashi</p>
-<p>Par Bonaventure Monga</p>
-</footer>
-
 </body>
-  </html>
+</html>
