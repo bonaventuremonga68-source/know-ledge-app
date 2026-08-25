@@ -1,30 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Know-Ledge</title>
+<title>Know-Ledge - Apprends. Comprends. Réussis.</title>
 <style>
-body{margin:0;font-family:Arial;background:#f5f7ff;text-align:center}
-header{background:#4f46e5;color:white;padding:20px}
-.hero{padding:40px 20px}
-.btn{background:#4f46e5;color:white;padding:15px 30px;border-radius:10px;text-decoration:none;display:inline-block}
-.cards{display:flex;gap:15px;justify-content:center;padding:20px;flex-wrap:wrap}
-.card{background:white;padding:20px;border-radius:12px;width:250px;box-shadow:0 2px 8px #0002}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#f8f9ff;color:#1a1a2e}
+header{background:#4f46e5;color:white;padding:15px 20px;display:flex;justify-content:space-between;align-items:center}
+header h2{font-size:20px}
+.hero{background:linear-gradient(135deg,#4f46e5,#7c3aed);color:white;padding:60px 20px;text-align:center}
+.hero h1{font-size:32px;margin-bottom:15px}
+.hero p{font-size:18px;opacity:0.9;margin-bottom:25px}
+.btn{background:white;color:#4f46e5;padding:14px 28px;border-radius:30px;text-decoration:none;font-weight:bold;display:inline-block}
+.section{padding:40px 20px;max-width:1000px;margin:0 auto}
+.section h2{text-align:center;margin-bottom:30px;font-size:26px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:white;padding:25px;border-radius:15px;box-shadow:0 4px 15px rgba(0,0,0,0.1);text-align:center;transition:0.3s}
+.card:hover{transform:translateY(-5px)}
+.card h3{color:#4f46e5;margin-bottom:10px;font-size:22px}
+.card .badge{background:#e0e7ff;color:#4f46e5;padding:5px 12px;border-radius:20px;font-size:12px;font-weight:bold}
+.card p{margin:15px 0;color:#555}
+.card a{background:#4f46e5;color:white;padding:10px 20px;border-radius:20px;text-decoration:none;display:inline-block;margin-top:10px}
+footer{background:#1a1a2e;color:white;text-align:center;padding:20px;margin-top:40px}
 </style>
 </head>
 <body>
-<header><h2>Know-Ledge</h2></header>
+<header>
+<h2>Know-Ledge</h2>
+<span>🇨🇩 RDC</span>
+</header>
+
 <div class="hero">
-<h1>Apprends. Comprends. Reussis.</h1>
-<p>Plateforme d'apprentissage pour les etudiants du Congo</p>
-<a class="btn" href="#">Commencer Gratuitement</a>
+<h1>Apprends. Comprends. Réussis.</h1>
+<p>Plateforme d'apprentissage pour les élèves des Humanités et Universités</p>
+<a class="btn" href="#classes">Commencer Gratuitement →</a>
 </div>
+
+<div class="section" id="classes">
+<h2>Choisis ta Classe</h2>
 <div class="cards">
-<div class="card"><h3>Cours</h3><p>Informatique, reseau, dev</p></div>
-<div class="card"><h3>Quiz</h3><p>Teste tes connaissances</p></div>
-<div class="card"><h3>Projets</h3><p>Apprends en construisant</p></div>
+
+<div class="card">
+<h3>3ème</h3>
+<span class="badge">Secondaire</span>
+<p>Cours de base, Math, Français, Anglais, Sciences</p>
+<a href="#">Voir les cours</a>
 </div>
-<p style="margin-top:40px">Cree par Bonaventure Monga - Lubumbashi</p>
+
+<div class="card">
+<h3>4ème</h3>
+<span class="badge">Humanités</span>
+<p>Littéraire, Scientifique, Commerciale, Pédagogie</p>
+<a href="#">Voir les cours</a>
+</div>
+
+<div class="card">
+<h3>5ème</h3>
+<span class="badge">Humanités</span>
+<p>Préparation Examen d'Etat, Dissertation, Options</p>
+<a href="#">Voir les cours</a>
+</div>
+
+<div class="card">
+<h3>6ème</h3>
+<span class="badge">Finaliste</span>
+<p>Exetat 2026, Révisions intensives, Tests</p>
+<a href="#">Voir les cours</a>
+</div>
+
+</div>
+</div>
+
+<div class="section" style="background:white;border-radius:20px;margin-top:20px;">
+<h2>Pourquoi Know-Ledge?</h2>
+<div class="cards">
+<div class="card" style="box-shadow:none">
+<h3>📚</h3>
+<h3>Cours complets</h3>
+<p>Toutes les matières des humanités</p>
+</div>
+<div class="card" style="box-shadow:none">
+<h3>🎥</h3>
+<h3>Vidéos claires</h3>
+<p>Explications en lingala, swahili et français</p>
+</div>
+<div class="card" style="box-shadow:none">
+<h3>📝</h3>
+<h3>Exercices</h3>
+<p>Avec corrections pour réussir</p>
+</div>
+</div>
+</div>
+
+<footer>
+<p>© 2026 Know-Ledge - Fait avec ❤️ à Lubumbashi</p>
+<p>Par Bonaventure Monga</p>
+</footer>
+
 </body>
   </html>
